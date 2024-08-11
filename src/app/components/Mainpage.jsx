@@ -1,5 +1,4 @@
 
-import Image from 'next/image'
 import React, { useEffect, useRef } from 'react'
 
 import LocomotiveScroll from 'locomotive-scroll';

@@ -15,7 +15,7 @@ const Header = () => {
             <Link className='nav-link' href={"/"}>Festivals & events</Link>
             <Link className='nav-link' href={"/"}>Resturant</Link>
         </nav>
-        <button className='Contact-us-page'>Contact Us</button>
+         <Link className='Contact-us-page'  href={"/Contact"}>Contact Us</Link>
     </header>
   )
 }

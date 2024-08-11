@@ -1,6 +1,5 @@
 "use client"
 import React from 'react'
-import Header  from './components/Header'
 import Mainpage from './components/Mainpage'
 import Nepal from './components/Nepal'
 import Destination from './components/Destination'
@@ -20,7 +19,7 @@ const page = () => {
   return (
     <>
     <main className='main-wrapper'>
-      <Header/>
+      
       <Mainpage/>
        <Nepal/>
       <MainMarquee/>

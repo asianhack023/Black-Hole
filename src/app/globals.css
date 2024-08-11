@@ -50,6 +50,8 @@ nav{
   background-color: #990000;
   color: #fff;
   cursor: pointer;
+  text-decoration: none;
+  font-size: 1vw;
 }
 .nav-link{
   list-style-type: none;
@@ -113,7 +115,7 @@ home css start here */
   left: 0;
   background-color: rgb(255, 255, 255);
   border-radius: 10vw;
-  width: 50%;
+  width: 40%;
   padding: 1vw;
   z-index: 22;
   display: flex;
