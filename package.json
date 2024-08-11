@@ -1,0 +1,23 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.1",
+    "locomotive-scroll": "^5.0.0-beta.13",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-fast-marquee": "^1.6.5",
+    "react-icons": "^5.2.1",
+    "react-scroll-horizontal": "^1.6.6",
+    "remixicon": "^4.3.0",
+    "swiper": "^11.1.9"
+  }
+}

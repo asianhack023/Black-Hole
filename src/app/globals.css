@@ -1,0 +1,827 @@
+@font-face {
+  font-family: unbound;
+  src: url(./font/Unbounded-Bold-BF63e447c282748.ttf);
+}
+@font-face {
+  font-family: minigap;
+  src: url(./font/Gravitype\ -\ Minigap.otf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+.main-wrapper{
+  background-image: url("/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.header{
+width: 100%;
+padding: 1vw 3vw;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo p{
+  font-family: minigap;
+  font-size: 1.2vw;
+  font-weight: 700;
+  color: #990000;
+}
+nav{
+  width: 50%;
+  
+}
+.Contact-us-page{
+  outline: none;
+  border: none;
+  padding: 1.2vw 2vw;
+  font-family: minigap;
+  border-radius: 0.5vw;
+  background-color: #990000;
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link{
+  list-style-type: none;
+  text-decoration: none;
+  color: #000;
+  margin: 0 1vw;
+  font-family: minigap;
+  font-size: 1vw;
+}
+.search-bar{
+  width: 100%;
+  padding: 0.5vw 3vw;
+  border-radius: 10vw;
+  outline: none;
+  border: 1px solid #000;
+  font-size: 1vw;
+}
+/* 
+home css start here */
+.home-section{
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  position: relative;
+}
+
+.main-text{
+  width: 100%;
+  padding: 3vw 3vw 3vw 3vw;
+  
+}
+
+.main-h1{
+  font-family: unbound;
+  font-size: 4.5vw;
+  width: 65%;
+  
+  text-transform: uppercase;
+}
+.first-span{
+  color: #990000;
+}
+.main-pasag{
+  width: 30%;
+  
+}
+.one-text{
+  display: flex;
+  justify-content: space-between;
+}
+.main-pasag{
+  font-family: minigap;
+  font-size: 1vw;
+}
+.main-search-bar{
+  position: relative;
+  top: 2vw;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10vw;
+  width: 50%;
+  padding: 1vw;
+  z-index: 22;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.text-field-search{
+  width: 70%;
+  padding: 1vw;
+  border-radius: 0.5vw;
+  outline: none;
+  font-size: 1vw;
+  font-family: minigap;
+border: none;
+}
+.Search-Place-btn{
+  outline: none;
+  border: none;
+  padding: 1.2vw 2vw;
+  font-family: minigap;
+  border-radius: 10vw;
+  background-color: #990000;
+  color: #fff;
+  cursor: pointer;
+}
+.another-text{
+  font-family: unbound;
+  font-size: 4.5vw;
+  width: 70%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  text-transform: uppercase;
+}
+.next-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-btn{
+  display: flex;
+  width: 20%;
+}
+.ri-arrow-right-up-line{
+  font-size: 3.3vw;
+  color: #fff;
+  background-color: #990000;
+  margin: 0 0 0 0.5vw;
+  border-radius: 0.5vw;
+}
+.icon-for-arrow{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-home-btn{
+  padding: 1.3vw 3vw;
+  outline: none;
+  border: none;
+  background-color: #990000;
+  color: #ffffff;
+  font-family: unbound;
+  border-radius: 0.5vw;
+  cursor: pointer;
+}
+
+
+.another-main-images{
+  padding: 2vw 3vw;
+  
+}
+
+.video-parts{
+  width: 100%;
+ object-fit: cover;
+  height: 10vh;
+}
+/* .main-home-images{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 2vw;
+} */
+.main-video{
+  width: 95%;
+  height: 60vh;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1vw;
+}
+
+
+/* marquee css start here */
+.main-scroll{
+  width: 100%;
+  background-color: #003893;
+  padding: 2vw 3vw;
+  height: 10vw;
+}
+.main-slide-marquee{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.main-marque-h1{
+  font-size: 3.5vw;
+  font-family: unbound;
+  color: #fff;
+  margin: 0 2vw;
+}
+
+
+/* offer-section */
+
+.offer-section{
+  width: 100%;
+  padding: 2vw 3vw;
+  background-image: url("/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.offer-heading{
+  font-size: 3vw;
+  font-family: unbound;
+}
+.offer-text{
+  font-family: minigap;
+  font-size: 1vw;
+  background-color: #990000;
+  padding: 0.8vw 3vw;
+  color: #fff;
+  border-radius: 10vw;
+
+ 
+}
+.main-text-offer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center; 
+}
+.two-offer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 2vw 0;
+ 
+}
+.two-offer-txt{
+  display: flex;
+  justify-content: space-between;
+}
+.small-txt{
+  font-size: 1.2vw;
+  font-family: minigap;
+}
+.main-offer-box{
+  width: 48%;
+  border: 1px solid #B2AFAF;
+  padding: 1vw;
+}
+.imgages-for-offer{
+  width: 100%;
+}
+.main-offer-images{
+  width: 100%;
+  height: 22vw;
+}
+.small-h1{
+  font-size: 1.5vw;
+  font-family: unbound;
+  margin: 0.5vw 0;
+}
+.small-h2{
+  font-family: unbound;
+  font-size: 2vw;
+}
+.pasag-offer{
+  font-size: 1vw;
+  font-family: minigap;
+}
+.offer-btn{
+  font-family: minigap;
+  outline: none;
+  border: none;
+  font-size: 1vw;
+  background-color: transparent;
+  margin: 1vw 0;
+}
+
+
+/* why-choose-us-section css start here */
+
+.why-choose-us-section{
+  background-color: #003893;
+  width: 100%;
+  padding: 1vw 3vw;
+}
+.main-choose-txt{
+  font-family: unbound;
+  color: #fff;
+  font-size: 3.5vw;
+  padding: 1vw 0;
+}
+.three-box{
+  border-top: 0.1vw solid #a9a9a9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1.9vw 0;
+}
+.main-title-txt-choose{
+  font-size: 1vw;
+  color: #fff;
+  font-family: unbound;
+  text-transform: uppercase;
+
+}
+.main-pasag-txt-choose{
+  font-size: 1vw;
+  font-family: minigap;
+  color: #B7B7B7;
+}
+.first-advantage{
+  width: 30%;
+}
+.second-advantage{
+width: 40%;
+}
+.third-advantage{
+  width: 20%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  
+}
+
+.third-advantage .main-num-txt-choose{
+  color: #fff;
+  font-size: 1.5vw;
+  text-align: end;
+}
+
+
+
+/*  destination-section css start here */
+
+.destination-section{
+  width: 100%;
+  padding: 1vw 3vw;
+  
+}
+.two-txt-destination{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding-top: 2vw;
+}
+.first-destination-txt{
+  width: 30%;
+  padding: 0.5vw 0;
+}
+.first-pasag-destinition{
+  font-size: 1vw;
+  font-family: minigap;
+  font-weight: 700;
+}
+.destinition-main-title{
+  font-size: 3vw;
+  font-family: unbound;
+}
+.second-destination-txt{
+  width:40% ;
+}
+.destination-pasag{
+  font-size: 1vw;
+  font-family: minigap;
+}
+.one-box-destination{
+  width: 15%;
+  border: 0.2vw solid #fff;
+  position: relative;
+  cursor: pointer;
+  padding: 3.5vw 0;
+  transition: 1s all ease-in-out;
+  
+}
+.one-box-destination:hover{
+  width: 60%;
+  margin: 0 1vw;
+}
+.all-destination-place{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.main-destinatio-images{
+  width: 100%;
+  height: 30vw;
+  object-fit: cover;
+  border-radius: 1vw;
+  
+}
+.main-destination-images-container {
+  position: relative;
+  width: 100%;
+  height: 30vw;
+}
+.main-destination-images-container::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+  border-radius: 1vw;
+}
+.all-info-destination{
+position: absolute;
+left: 0;
+bottom: 4vw;
+padding: 0.9vw;
+}
+.main-provience-txt{
+  color: #fff;
+  font-family: unbound;
+  font-size: 1.2vw;
+  margin: 0.5vw 0;
+}
+.main-provience-pasag{
+  color: #ffffff;
+  font-size: 0.9vw;
+  font-family: minigap;
+}
+.main-local-images{
+  width: 100%;
+  height: 40vh;
+  background-size:100%;
+  object-fit: cover;
+}
+
+/* local food and culture css start here */
+.local-section{
+  width: 100%;
+  padding: 1vw 3vw;
+  background-image: url("/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-local-box{
+  width: 47%;
+  border: 0.1vw solid #B7B7B7;
+  padding: 1vw;
+}
+.main-text-local{
+  width: 100%;
+  padding: 2vw 0 3vw 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.three-local-box{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.small-h1{
+  font-size: 1.2vw;
+}
+.main-local-box{
+  margin: 0 1vw;
+}
+.main-local-box:nth-child(3){
+  margin-top:2vw;
+}
+
+/* hotel css start here */
+
+.hotel-section{
+  width: 100%;
+  padding: 1vw 3vw;
+  
+}
+.two-hotel-title-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hotel-title-text{
+  padding: 6vw 0;
+}
+.main-marque-hotel{
+  font-size: 1vw;
+  font-family: minigap;
+  margin: 0 1vw;
+}
+.find-hotel-text-nepal{
+  font-family: unbound;
+  font-size: 3vw;
+  padding: 1vw 0;
+}
+.find-hotel-pasag{
+  font-family: minigap;
+  font-size: 1vw;
+  width: 50%;
+}
+.hotel-main-details{
+  display: flex;
+  height: 25vw;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1vw;
+  background: linear-gradient(to right, #990000, #330000);
+
+}
+.img-for-hotel{
+  width: 40%;
+}
+.hotel-home-images{
+  width: 100%;
+}
+.input-field-hotel{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inut-type-text{
+  padding: 1.1vw  0.9vw;
+  outline: none;
+  border: none;
+  margin: 0 0.5vw;
+  
+}
+.hotel-date{
+
+  padding: 1vw  0.9vw;
+}
+.ri-search-eye-line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.7vw;
+  padding: 0.1vw  0.2vw;
+  
+  
+}
+
+
+/* footer css start here */
+
+.main-footer{
+  width: 100%;
+  height: 80vh;
+  padding: 3vw 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.newsletter{
+  text-align: center;
+}
+.all-footer-details{
+  padding: 1vw;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-inner-box{
+  width: 20%;
+
+}
+.footer-list-items{
+  list-style-type: none;
+  font-size: 1vw;
+  font-family: minigap;
+}
+.main-title-footer-link{
+  margin: 0.5vw 0;
+  font-size: 1.1vw;
+  font-family: unbound;
+}
+.footer-about-pasag{
+  font-size: 1vw;
+  font-family: minigap;
+}
+
+.news-letter-text{
+  font-size: 2vw;
+  font-family: unbound;
+}
+
+.newsletter-pasag{
+  font-family: minigap;
+  font-size: 1vw;
+  margin: 1vw 0;
+}
+.two-footer-part{
+  display: flex;
+  justify-content: center;
+  
+}
+.footer-input-link{
+  padding: 1vw 2vw;
+  width: 50%;
+  font-family: minigap;
+  font-size: 1vw;
+  outline: none;
+  border: 0.1vw solid #000;
+}
+.btn-for-footer{
+  padding: 1vw 3vw;
+  background-color: #990000;
+  color: #fff;
+  font-family: unbound;
+  font-size: 1vw;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.copyright-text{
+  font-family: minigap;
+  font-size: 1vw;
+}
+
+/* main nepal map css start here */
+
+#main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Top section, positioned at the top */
+#top {
+  width: 100%;
+  height: 50vh;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  z-index: 2;
+}
+
+/* Center section */
+
+
+
+/* Bottom section, positioned at the bottom */
+#bottom {
+  width: 100%;
+  height: 60.6vh;
+background-color: #fff;
+  position: absolute;
+  bottom: -2vw;
+  overflow: hidden;
+  z-index: 1;
+  
+}
+/* Style for headers in the main section */
+#main h1 {
+  font-size: 16.1vw;
+  position: absolute;
+  font-family: unbound;
+  text-transform: uppercase;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Specific styles for top and bottom headers */
+#top-h {
+  bottom: 40%;
+  font-family: unbound;
+  
+}
+
+#bottom-h {
+  top: 0 !important; /* Use !important cautiously */
+} 
+
+
+/* 
+slide css start here */
+
+#center{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding: 0 3vw;
+  background-image: url("/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title-text-swiper-h1{
+  width: 30%;
+  padding: 1vw 0;
+  text-align: start;
+  padding-bottom: 3vw;
+}
+.main-bigger-text{
+  font-size: 3vw;
+  font-family:unbound;
+}
+.get-to-know-us{
+  font-family: minigap;
+  font-size: 1vw;
+  margin: 1vw 0;
+}
+
+.small-swiper-text{
+  
+  width: 30%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.small-swiper-pasag{
+  font-size: 1vw;
+  font-family: minigap;
+  width: 80%;
+}
+
+.nepal-description{
+  font-family: minigap;
+  margin: 1vw 0;
+}
+
+.event-list{
+  font-family: unbound;
+  margin: 0.5vw 0;
+  color: #990000;
+}
+.swiper {
+  width: 34%;
+  height: 32vw;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #000000;
+  width: 100% !important; /* Ensure full width */
+  padding: 2vw;
+}
+
+
+.swiper-slide{
+ background-color: #ffffff;
+border: 0.1vw solid #111;
+}
+
+.first-slide-images{
+  border-radius:0.5vw;
+  overflow: hidden;
+  width: 100%;
+  
+}
+.figcaption{
+  font-family: unbound;
+  margin: 1vw 0;
+}
+.main-slide-swipe{
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
+.pasag-different-province{
+  font-family: minigap;
+  font-size: 0.9vw;
+  font-weight: 400;
+}
+.all-link-details{
+
+padding: 1vw 0;
+display: flex;
+justify-content: start;
+align-items: end;
+}
+.load-more-province{
+  text-decoration: none;
+  font-family: minigap;
+  font-size: 0.9vw;
+  border: 0.1vw solid #616161;
+  padding: 0.8vw 3vw;
+  border-radius: 10vw;
+  color: #000;
+ 
+}
+
